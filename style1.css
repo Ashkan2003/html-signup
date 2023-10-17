@@ -1,0 +1,99 @@
+/* sign up page */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(p1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.container{
+    background-image: linear-gradient(to bottom left,rgba(131, 131, 170, 0),rgba(23, 14, 120, 0.781));
+    text-align: center;
+    margin: 5rem auto;
+    width: 480px;
+    height: 550px;
+    border-radius: 30px;
+}
+.article-1{
+    padding-top:3.5rem;
+    text-align: center;
+    
+}
+.article-1 span{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: rgb(231, 235, 235);
+    text-shadow: 2px 2px 5px rgb(7, 242, 242);
+    font-size: x-large;
+    font-family:sans-serif;
+
+}
+.article-1 a{
+    color: rgb(215, 217, 218);
+    text-decoration: none;
+}
+.article-1 a:hover{
+    color: blue;
+}
+.article-1 a:focus{
+    color: black;
+}
+
+
+
+
+.article-2{
+    padding-left: 3rem;
+    color: rgb(194, 191, 191);
+    font-family: sans-serif;
+    text-align: left;
+}
+.article-2 label{
+    padding-left:.5rem;
+}
+.article-2 input{
+    background-color: rgba(169, 151, 151, 0.255);
+    border-radius: 99px;
+    border: none;
+    width: 24rem;
+    height: 3rem;
+    font-size: x-large;
+    padding-left: 1rem;
+    transition: all .4s;
+}
+.article-2 input:hover{
+    background-color: rgba(189, 189, 194, 0.396);
+}
+.article-2 input:focus{
+    border: 2px solid blue;
+    outline: 4px solid rgba(35, 35, 253, 0.4);
+}
+.article-2-1:hover{
+    color: white;
+}
+.article-2-2:hover{
+    color: white;
+}
+.article-2-3:hover{
+    color:white;
+}
+#S1{
+    background-color: rgba(98, 18, 226, 0.555);
+    font-size: x-large;
+    color: rgb(228, 231, 235);
+}
+#S1:hover{
+    background-color:rgba(228, 231, 235, 0.871) ;
+    color: rgba(98, 18, 226, 0.555) ;
+    transition: all .5s;
+    cursor: pointer;
+}
+#S1:focus{
+    background-color: black;
+    color: white;
+    transition: none;
+}

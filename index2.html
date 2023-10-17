@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashkan</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- SING IN PAGE -->
+    <div class="container">
+
+        <div class="article-1">
+            <span><a href="index2.html">LOG IN</a></span>
+            <span><a href="index1.html">SIGN UP</a></span>
+        </div>
+        <br><br><br><br>
+        <div class="article-2">
+
+            <form action="">
+  
+                <div class="article-2-1">
+                    <label for="">USERNAME</label><br>
+                    <input type="text" class="js-username" onkeyup="usernameValidation()">
+                    <div class="js-username-validation">Must Contain 12 Character (min)</div>
+                    <br><br>
+                </div>
+
+                <div class="article-2-2">
+                    <label for="">PASSWORD</label><br>
+                    <input type="password" class="js-password" onkeydown="passwordValidation()">
+                    <div class="js-password-validation">Must Contain 12 Charactor (Min)</div>
+                    <br><br>
+                </div>
+                 
+                <input type="submit" id="S1">
+           
+            </form>
+
+        </div>
+
+    </div>
+     
+    <script src="js-file.js"></script>
+</body>
+</html>
